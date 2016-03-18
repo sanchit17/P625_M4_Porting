@@ -144,7 +144,10 @@ void HAL_CAN_MspDeInit(CAN_HandleTypeDef* hcan)
 } 
 
 /* USER CODE BEGIN 1 */
-
+void CAN_Task()
+{
+ Add CAN initialization stuff here.
+}
 /* USER CODE END 1 */
 
 /**
